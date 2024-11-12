@@ -34,6 +34,18 @@ Free Resources for Animations, Materials and textures, 3D models, Shaders, Visua
 - https://www.youtube.com/watch?v=f4s1h2YETNY&ab_channel=kishimisu | An introduction to Shader Art Coding - YouTube
 - https://www.youtube.com/@SebastianLague | Sebastian Lague - YouTube
 
+## Scripting for animation
+
+- https://www.youtube.com/results?search_query=Houdini+python | Houdini python - YouTube
+- https://www.youtube.com/watch?v=ayMihNmBC4o&list=PLpss88MSwvy426dITd3HYtsLnN7bNQ7Qu&ab_channel=ExpressoMechanicTV | Cinema 4D Python Tutorial 1: Hexagon Display Effector - YouTube
+- https://www.youtube.com/watch?v=AVQBaG6_990&t=403s&ab_channel=NinaShaw-GameArt | Top 25 Free Maya Scripts and Plugins - YouTube
+- https://www.youtube.com/watch?v=yfXCswFIkFY&list=PLvvwOd40Y2t-KQmacIOCOjWy6JcG12yRU&ab_channel=TDChannel | Introduction to RenderMan Shading Language (RSL) - YouTube
+- https://www.youtube.com/results?search_query=Adobe+After+Effects+javascript | Adobe After Effects javascript - YouTube
+- https://www.youtube.com/@Animoplex/videos | Animoplex - YouTube
+- https://www.youtube.com/@NTProductions/videos | NT Productions - YouTube
+- https://www.youtube.com/watch?v=jv4axtpnZps&list=PLUQI9FCi9-FFfpUg61-XXtsAZuhBEgB3b&ab_channel=ManuMercurial | Animation Post Production Like a PRO (After Effects Beginner Tutorial) - YouTube
+- https://www.youtube.com/watch?v=LOhfqjmasi0&ab_channel=Brackeys | How to make a Video Game - Godot Beginner Tutorial - YouTube
+
 # Tipos de animações
 
 - Blender, Maya, Houdini, Cinema4D: modeling, texturing, shading, animation, VFX - use scripting
