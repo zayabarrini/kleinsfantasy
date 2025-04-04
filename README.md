@@ -18,3 +18,57 @@
 
 Details: CGI.md, KleinsbottleFantasy.md
 
+# everytime
+source ~/blender_venv/bin/activate
+
+# Create a venv using Blender's Python
+/usr/bin/python3.12 -m venv ~/blender_venv
+source ~/blender_venv/bin/activate
+
+# Install packages
+pip install numpy pillow
+
+Method 1: Direct Execution
+blender --python /path/to/your_script.py
+
+Method 2: Background Mode (No GUI)
+blender --background --python /path/to/your_script.py
+
+Method 3: Interactive Python Console
+blender --python-console
+
+# Handle External Dependencies
+If your script uses packages (e.g., numpy), ensure Blender can see them:
+
+import sys
+sys.path.append("/home/you/blender_venv/lib/python3.12/site-packages")  # For venv
+
+
+# Cleaning up
+No problem! Let's clean up and set up the Blender Python environment correctly in /home/zaya/Documents/Gitrepos/kleinsfantasy.
+
+Step 1: Clean Up the Wrong Installation
+First, let's remove the incorrectly installed dependencies:
+
+bash
+Copy
+# Navigate to the wrong project
+cd /home/zaya/Documents/Gitrepos/Linktrees/Business/Dev/Py/Blender
+
+# Remove any virtual environment if you created one
+rm -rf venv .venv blender_venv
+
+# Remove Pipenv files if used
+rm -rf Pipfile Pipfile.lock
+
+# Clean Python cache
+find . -type d -name "__pycache__" -exec rm -r {} +
+Step 2: Set Up Correct Project Directory
+bash
+Copy
+# Navigate to the correct project
+cd /home/zaya/Documents/Gitrepos/kleinsfantasy
+
+# Remove any existing environment files (if they exist)
+rm -rf venv .venv blender_venv Pipfile Pipfile.lock
+

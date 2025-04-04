@@ -22,7 +22,7 @@ def create_klein_bottle():
         print("Creating torus as base for Klein bottle...")
 
         # Path to your 3D object file (replace with your actual path)
-        file_path = "/home/talles/Downloads/Environments/Psychoanalysis/models/Klein.blend"        
+        file_path = "/home/zaya/Downloads/Environments/Psychoanalysis/models/Klein.blend"        
 
         # Import the 3D object
         # bpy.ops.import_scene.obj(filepath=file_path)
@@ -77,7 +77,7 @@ def apply_materials(klein_bottle):
         # Set texture
         nodes = texture_material.node_tree.nodes
         tex_image = nodes.new(type="ShaderNodeTexImage")
-        tex_image.image = bpy.data.images.load("/home/talles/Downloads/Environments/Psychoanalysis/textures/Poliigon_BrickWallReclaimed_8320/Poliigon_BrickWallReclaimed_8320_Preview1.png")  # Replace with actual path
+        tex_image.image = bpy.data.images.load("/home/zaya/Downloads/Environments/Psychoanalysis/textures/Poliigon_BrickWallReclaimed_8320/Poliigon_BrickWallReclaimed_8320_Preview1.png")  # Replace with actual path
         bsdf = nodes.get("Principled BSDF")
         if bsdf:
             texture_material.node_tree.links.new(tex_image.outputs["Color"], bsdf.inputs["Base Color"])
@@ -90,7 +90,7 @@ def apply_materials(klein_bottle):
 
         # Add upholstery texture
         upholstery_texture = nodes.new(type="ShaderNodeTexImage")
-        upholstery_texture.image = bpy.data.images.load("/home/talles/Downloads/Environments/Psychoanalysis/textures/Poliigon_RattanWeave_6945/Poliigon_RattanWeave_6945_Preview1.png")  # Replace with actual path
+        upholstery_texture.image = bpy.data.images.load("/home/zaya/Downloads/Environments/Psychoanalysis/textures/Poliigon_RattanWeave_6945/Poliigon_RattanWeave_6945_Preview1.png")  # Replace with actual path
         if bsdf:
             upholstery_material.node_tree.links.new(upholstery_texture.outputs["Color"], bsdf.inputs["Base Color"])
 
@@ -147,7 +147,7 @@ def duplicate_klein_bottle(klein_bottle):
     try:
         bottle1 = klein_bottle
         bottle2 = klein_bottle.copy()
-        bottle2.location = (20, 0, 0)
+        bottle2.location = (20, 10, 10)
         bpy.context.collection.objects.link(bottle2)
         print(f"Klein bottle duplicated: bottle1 at (0, 0, 0), bottle2 at (3, 0, 0).")
         return bottle1, bottle2
@@ -156,24 +156,7 @@ def duplicate_klein_bottle(klein_bottle):
         traceback.print_exc()
         return None, None
 
-def animate_interaction(bottle1, bottle2):
-    """Animate interaction between two bottles with keyframe insertion."""
-    try:
-        bottle1.location = (0, 0, 0)
-        bottle1.keyframe_insert(data_path="location", frame=1)
-        bottle1.location = (1, 1, 10)
-        bottle1.keyframe_insert(data_path="location", frame=50)
-        print("Bottle1 keyframes set from (0, 0, 0) to (1, 1, 0).")
 
-        bottle2.location = (20, 0, 0)
-        bottle2.keyframe_insert(data_path="location", frame=1)
-        bottle2.location = (25, 10, 1)
-        bottle2.keyframe_insert(data_path="location", frame=50)
-        print("Bottle2 keyframes set from (3, 0, 0) to (2, 1, 0).")
-
-    except Exception as e:
-        print("Error setting up interaction animation:", e)
-        traceback.print_exc()
 
 def apply_costume_with_holes(material):
     """Apply costume material with clipping for holes."""
@@ -193,42 +176,79 @@ def apply_costume_with_holes(material):
         print(f"Error applying costume with holes to material: {material.name}")
         traceback.print_exc()
 
+def animate_interaction(bottle1, bottle2):
+    """Animate interaction between two bottles with keyframe insertion."""
+    try:
+        bottle1.location = (0, 0, 0)
+        bottle1.keyframe_insert(data_path="location", frame=1)
+        bottle1.location = (1, 1, 10)
+        bottle1.keyframe_insert(data_path="location", frame=50)
+        print("Bottle1 keyframes set from (0, 0, 0) to (1, 1, 0).")
+
+        bottle2.location = (10, 0, 0)
+        bottle2.keyframe_insert(data_path="location", frame=1)
+        bottle2.location = (25, 10, 1)
+        bottle2.keyframe_insert(data_path="location", frame=50)
+        print("Bottle2 keyframes set from (3, 0, 0) to (2, 1, 0).")
+
+    except Exception as e:
+        print("Error setting up interaction animation:", e)
+        traceback.print_exc()
+
 def setup_camera(bottle1, bottle2):
     """Add a camera and set its properties with debugging."""
     try:
+       
+        # Add a camera at a specified location
         bpy.ops.object.camera_add(location=(5, -5, 3))
         camera = bpy.context.object
-        # bpy.context.scene.camera = camera
-        # camera.rotation_euler = (math.radians(60), 0, math.radians(45))
-        # print("Camera added at location (5, -5, 3) with rotation (60°, 0, 45°).")
-        
-        # Replace with your actual object names
-        obj1 = bottle1
-        obj2 = bottle2
 
-        # Calculate the midpoint between the two objects
-        midpoint = (obj1.location + obj2.location) / 2
+        bottle1 = bpy.data.objects["Circle.001"]
+        bottle2 = bpy.data.objects["Circle.002"]
 
-        # Calculate the distance between the objects
-        distance = (obj1.location - obj2.location).length
+        # Create or retrieve an empty to track the midpoint
+        if "Midpoint" not in bpy.data.objects:
+            midpoint_empty = bpy.data.objects.new("Midpoint", None)
+            bpy.context.collection.objects.link(midpoint_empty)
+        else:
+            midpoint_empty = bpy.data.objects["Midpoint"]
 
-        # Set the camera distance from the midpoint to capture both objects
-        camera_distance = distance * 1.5  # Adjust as needed for a better fit
+        # Set the camera to track the empty
+        if not any(constraint.type == 'TRACK_TO' for constraint in camera.constraints):
+            camera_constraint = camera.constraints.new(type='TRACK_TO')
+            camera_constraint.target = midpoint_empty
+            camera_constraint.track_axis = 'TRACK_NEGATIVE_Z'
+            camera_constraint.up_axis = 'UP_Y'
 
-        # Set camera to look at the midpoint
-        # camera = bpy.data.objects['Camera']
-        camera.location = midpoint + mathutils.Vector((0, -camera_distance, camera_distance))
-        camera_constraint = camera.constraints.new(type='TRACK_TO')
-        camera_constraint.target = None  # Remove any existing target if present
-        camera_constraint.target = bpy.data.objects.new("Midpoint", None)
-        bpy.context.collection.objects.link(camera_constraint.target)
-        camera_constraint.target.location = midpoint
-        camera_constraint.track_axis = 'TRACK_NEGATIVE_Z'
-        camera_constraint.up_axis = 'UP_Y'
+        # Define the number of frames in the animation
+        start_frame = 1
+        end_frame = 50
 
-        # Set camera field of view to include both objects
-        bpy.context.scene.camera = camera
-        bpy.context.scene.camera.data.angle = math.radians(60)  # Adjust angle if necessary
+        # Animate the camera to track the midpoint each frame
+        for frame in range(start_frame, end_frame + 1):
+            # Set the scene to the current frame
+            bpy.context.scene.frame_set(frame)
+
+            # Ensure we get the updated global location of each bottle
+            bottle1_loc = bottle1.matrix_world.translation
+            bottle2_loc = bottle2.matrix_world.translation
+
+            # Print locations for debugging
+            print(f"Frame {frame}: Bottle1 location: {bottle1_loc}, Bottle2 location: {bottle2_loc}")
+
+            # Calculate the midpoint location between the two objects
+            midpoint_location = (bottle1_loc + bottle2_loc) / 2
+            midpoint_empty.location = midpoint_location
+
+            # Set the camera's distance from the midpoint
+            distance = (bottle1_loc - bottle2_loc).length
+            camera_distance = distance * 1.5  # Adjust as needed
+            camera.location = midpoint_location + mathutils.Vector((0, -camera_distance, camera_distance))
+
+            # Insert keyframes for the camera and midpoint
+            camera.keyframe_insert(data_path="location", frame=frame)
+            midpoint_empty.keyframe_insert(data_path="location", frame=frame)
+
     except Exception as e:
         print("Error setting up camera:", e)
         traceback.print_exc()
@@ -236,12 +256,12 @@ def setup_camera(bottle1, bottle2):
 def setup_render_settings():
     """Configure render settings for output with debugging."""
     try:
-        bpy.context.scene.render.filepath = "/home/talles/Downloads/Environments/Psychoanalysis/animations/klein"
+        bpy.context.scene.render.filepath = "/home/zaya/Downloads/Environments/Psychoanalysis/animations/klein"
         bpy.context.scene.render.image_settings.file_format = 'FFMPEG'
         bpy.context.scene.render.ffmpeg.format = 'MPEG4'
         bpy.context.scene.render.ffmpeg.codec = 'H264'
         bpy.ops.render.render(animation=True)
-        print("Render settings configured: Filepath set to /home/talles/Downloads/Environments/Psychoanalysis/animations/klein.MPEG4.")
+        print("Render settings configured: Filepath set to /home/zaya/Downloads/Environments/Psychoanalysis/animations/klein.MPEG4.")
     except Exception as e:
         print("Error setting render settings:", e)
         traceback.print_exc()
@@ -261,7 +281,6 @@ def main():
 
     if klein_bottle:
         add_light()
-        
         # Apply textures with clipping holes
         for material_name in ["HandleMaterial", "TextureMaterial", "UpholsteryMaterial"]:
             material = bpy.data.materials.get(material_name)
@@ -269,21 +288,15 @@ def main():
                 apply_costume_with_holes(material)
             else:
                 print(f"Warning: Material '{material_name}' not found.")
-        
         bottle1, bottle2 = duplicate_klein_bottle(klein_bottle)
-        
         if bottle1 and bottle2:
-            setup_camera(bottle1, bottle2)
+            # bottle1.location = (0, 0, 0)
+            # bottle2.location = (20, 0, 0)
             animate_interaction(bottle1, bottle2)
-        
-       
+            setup_camera(bottle1, bottle2)
         # setup_render_settings()
-        
         print("Setup complete. Run the animation in Blender to see the results.")
     else:
         print("Failed to create Klein bottle; exiting script.")
-   
 # Run the script
 main()
-
-

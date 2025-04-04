@@ -73,7 +73,7 @@ def import_file():
         print("Importing object tree")
 
         # Path to your 3D object file (replace with your actual path)
-        file_path = "/home/talles/Downloads/Environments/Psychoanalysis/models/Klein.blend"        
+        file_path = "/home/zaya/Downloads/Environments/Psychoanalysis/models/Klein.blend"        
 
         # Import the 3D object
         # bpy.ops.import_scene.obj(filepath=file_path)
@@ -386,12 +386,12 @@ def setup_scene(i=0):
 def setup_render_settings():
     """Configure render settings for output with debugging."""
     try:
-        bpy.context.scene.render.filepath = "/home/talles/Downloads/Environments/Psychoanalysis/animations/klein"
+        bpy.context.scene.render.filepath = "/home/zaya/Downloads/Environments/Psychoanalysis/animations/klein"
         bpy.context.scene.render.image_settings.file_format = 'FFMPEG'
         bpy.context.scene.render.ffmpeg.format = 'MPEG4'
         bpy.context.scene.render.ffmpeg.codec = 'H264'
         bpy.ops.render.render(animation=True)
-        print("Render settings configured: Filepath set to /home/talles/Downloads/Environments/Psychoanalysis/animations/klein.MPEG4.")
+        print("Render settings configured: Filepath set to /home/zaya/Downloads/Environments/Psychoanalysis/animations/klein.MPEG4.")
     except Exception as e:
         print("Error setting render settings:", e)
         traceback.print_exc()

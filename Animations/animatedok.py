@@ -48,7 +48,7 @@ def apply_materials(klein_bottle):
         # Set texture
         nodes = texture_material.node_tree.nodes
         tex_image = nodes.new(type="ShaderNodeTexImage")
-        tex_image.image = bpy.data.images.load("/home/talles/Downloads/Environments/Psychoanalysis/textures/Poliigon_BrickWallReclaimed_8320/Poliigon_BrickWallReclaimed_8320_Preview1.png")  # Replace with actual path
+        tex_image.image = bpy.data.images.load("/home/zaya/Downloads/Environments/Psychoanalysis/textures/Poliigon_BrickWallReclaimed_8320/Poliigon_BrickWallReclaimed_8320_Preview1.png")  # Replace with actual path
         bsdf = nodes.get("Principled BSDF")
         if bsdf:
             texture_material.node_tree.links.new(tex_image.outputs["Color"], bsdf.inputs["Base Color"])
@@ -61,7 +61,7 @@ def apply_materials(klein_bottle):
 
         # Add upholstery texture
         upholstery_texture = nodes.new(type="ShaderNodeTexImage")
-        upholstery_texture.image = bpy.data.images.load("/home/talles/Downloads/Environments/Psychoanalysis/textures/Poliigon_RattanWeave_6945/Poliigon_RattanWeave_6945_Preview1.png")  # Replace with actual path
+        upholstery_texture.image = bpy.data.images.load("/home/zaya/Downloads/Environments/Psychoanalysis/textures/Poliigon_RattanWeave_6945/Poliigon_RattanWeave_6945_Preview1.png")  # Replace with actual path
         if bsdf:
             upholstery_material.node_tree.links.new(upholstery_texture.outputs["Color"], bsdf.inputs["Base Color"])
 
@@ -179,12 +179,12 @@ def setup_camera():
 def setup_render_settings():
     """Configure render settings for output with debugging."""
     try:
-        bpy.context.scene.render.filepath = "/home/talles/Downloads/Environments/Psychoanalysis/animations/klein"
+        bpy.context.scene.render.filepath = "/home/zaya/Downloads/Environments/Psychoanalysis/animations/klein"
         bpy.context.scene.render.image_settings.file_format = 'FFMPEG'
         bpy.context.scene.render.ffmpeg.format = 'MPEG4'
         bpy.context.scene.render.ffmpeg.codec = 'H264'
         bpy.ops.render.render(animation=True)
-        print("Render settings configured: Filepath set to /home/talles/Downloads/Environments/Psychoanalysis/animations/klein.MPEG4.")
+        print("Render settings configured: Filepath set to /home/zaya/Downloads/Environments/Psychoanalysis/animations/klein.MPEG4.")
     except Exception as e:
         print("Error setting render settings:", e)
         traceback.print_exc()
