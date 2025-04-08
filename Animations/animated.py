@@ -22,7 +22,7 @@ def create_klein_bottle():
         print("Creating torus as base for Klein bottle...")
 
         # Path to your 3D object file (replace with your actual path)
-        file_path = "/home/zaya/Downloads/Environments/Psychoanalysis/models/Klein.blend"        
+        file_path = "/home/zaya/Documents/Gitrepos/kleinsfantasy/models/Klein.blend"        
 
         # Import the 3D object
         # bpy.ops.import_scene.obj(filepath=file_path)
@@ -77,7 +77,7 @@ def apply_materials(klein_bottle):
         # Set texture
         nodes = texture_material.node_tree.nodes
         tex_image = nodes.new(type="ShaderNodeTexImage")
-        tex_image.image = bpy.data.images.load("/home/zaya/Downloads/Environments/Psychoanalysis/textures/Poliigon_BrickWallReclaimed_8320/Poliigon_BrickWallReclaimed_8320_Preview1.png")  # Replace with actual path
+        tex_image.image = bpy.data.images.load("/home/zaya/Downloads/Workspace/Animations/Textures/Poliigon_BrickWallReclaimed_8320/Poliigon_BrickWallReclaimed_8320_Preview1.png")  # Replace with actual path
         bsdf = nodes.get("Principled BSDF")
         if bsdf:
             texture_material.node_tree.links.new(tex_image.outputs["Color"], bsdf.inputs["Base Color"])
@@ -90,7 +90,7 @@ def apply_materials(klein_bottle):
 
         # Add upholstery texture
         upholstery_texture = nodes.new(type="ShaderNodeTexImage")
-        upholstery_texture.image = bpy.data.images.load("/home/zaya/Downloads/Environments/Psychoanalysis/textures/Poliigon_RattanWeave_6945/Poliigon_RattanWeave_6945_Preview1.png")  # Replace with actual path
+        upholstery_texture.image = bpy.data.images.load("/home/zaya/Downloads/Workspace/Animations/Textures/Poliigon_RattanWeave_6945/Poliigon_RattanWeave_6945_Preview1.png")  # Replace with actual path
         if bsdf:
             upholstery_material.node_tree.links.new(upholstery_texture.outputs["Color"], bsdf.inputs["Base Color"])
 

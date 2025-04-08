@@ -73,7 +73,7 @@ def import_file():
         print("Importing object tree")
 
         # Path to your 3D object file (replace with your actual path)
-        file_path = "/home/zaya/Downloads/Environments/Psychoanalysis/models/Klein.blend"        
+        file_path = "/home/zaya/Documents/Gitrepos/kleinsfantasy/models/Klein.blend"        
 
         # Import the 3D object
         # bpy.ops.import_scene.obj(filepath=file_path)
