@@ -1,3 +1,30 @@
+# Project
+
+## Partes da garrafa:Falo, Buraco, Fluxo na superfície, textura/coloração/escritos = fantasia, estofado
+
+- Movimentos = abertura e fechamento do buraco, dilatação do falo, reconfiguração da garrafa, partes, cores
+- Crise de gozo = crise de fluxo
+- Melancolia = desbotado da fantasia, do estofado
+- Delírio = tentativa de recobrir os furos na fantasia
+- Medicina = operação no corpo através de cortes e medicamentos
+- Obsessivo = buraco mínimo, falo protuberante, falo sensível
+- Histérica = gozo na falta, buraco sensível
+- Transexualidade = alteração na coloração de partes da garrafa
+- Perversão = gozo na transgressão da fantasia social, costumes, consentimento
+- Migração = Consumo/Produção de signos estrangeiros, mais, fluxo de outros
+- Toxicomania = objetos que excitam a garrafa
+- Nome-do-pai = separação entre protuberância e Orifício, fantasia que regula a separação entre gêneros. Campo da realidade. Estrutura da fantasia.
+
+## Modelling, Texturing, Shading, Animation:
+
+- Apply different textures to the bottle, separate handle, hole, center, produce a slight red protuberance
+- Apply shadow/coverage over the bottle, texture with Chinese writings, upholstery: covering with the costume
+- Animation: increase/decrease the proportions of the bottle: handle, hole, center
+- Animation: wave movement across the bottle
+- Animation: interaction between two bottles, interaction between three bottles, interaction between several bottles
+- Animation with the bottle's upholstery, different costumes, holes in the costume
+
+
 # Qual o nome de um objeto 3D, o objeto tem uma topologia, esqueleto, textura, iluminação, renderização 
 Esse objeto é um?
 
@@ -305,3 +332,92 @@ Here’s a structured classification of animation types:
 4. **Rotoscoping**  – Tracing over real footage for an animated effect.
  
 6. **AI-Generated Animation**  – Neural networks creating autonomous animation.
+
+# 09/04/25
+
+Donut inspiration: texturing
+Models list: explore texturing and rendering
+Klein bottle: add icy-like donut + texturing 
+Camera movement: camera tracking
+SFX: rotate and destroy it, rotate and merge into something else
+
+## Icing
+Duplicate object, rename it
+Toggle x-ray
+ortographic mode
+snap
+Subdivision modifier
+Ctrl+
+Alt + Left Ctrl
+H, Alt+H
+Crease inner
+Shift+select, E
+Select+Tab+G
+Shrinkwrap modifier
+Sculpt mode, Inflate, F, Shift+F
+Mask
+/: only see select obj
+Mesh filter
+Pareting, Keep transform
+Texture Paiting
+
+## Materials, Nodes View
+PBR Shader
+Shift+A
+Base Color, Roughness
+Ctrl+Space: fullscreen
+Link materials
+
+## Plane
+Snapping mode
+
+## Sprinkles, Geometry Nodes
+Weight paint
+Simple deform modifier
+
+## Camera
+Shift+~ flying mode
+
+## Light
+Alt+G
+World, sky texture
+
+## Shading
+
+## Rendering
+Face Orientation
+Object Intersection
+Objects that shouldn't be rendered
+Lighting + Exposure ranges
+Depth of field
+Scene Collection check
+
+## Geometry Nodes
+
+## Composition
+Use Nodes
+Color management
+Filter: Glare
+Output, Post-Processing, Compositing
+
+## Animation
+Dope sheet
+Graph editor
+
+## Video Editing
+
+
+## VFX
+https://www.youtube.com/watch?v=NEG9lafbzvI&ab_channel=FxForge
+Explosions, flames, dissolving
+Cuts and other objects inside each other
+Merging into each other
+
+## Motion Tracking
+
+
+## Add-ons
+
+
+## Folders
+Action, Brush, Collection, Image, Material, Mesh, Object, Scene, Texture, World
