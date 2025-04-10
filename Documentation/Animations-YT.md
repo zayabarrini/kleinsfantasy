@@ -211,3 +211,32 @@ https://www.youtube.com/watch?v=Y-MysTEBNyA | CGI Short Film "Extinguished" by A
 https://www.youtube.com/watch?v=38y_1EWIE9I | Snack Attack - YouTube
 https://www.youtube.com/watch?v=yWd4mzGqQYo | CGI Animated Short Film: "One Small Step" by TAIKO Studios | CGMeetup - YouTube
 https://www.youtube.com/watch?v=OuJ4BBQ0nhc | CGI Animated Short Film HD "Jinxy Jenkins & Lucky Lou" by Mike Bidinger & Michelle Kwon | CGMeetup - YouTube
+
+# VFX Blender
+
+https://www.youtube.com/results?search_query=vfx+blender | vfx blender - YouTube
+https://www.youtube.com/watch?v=CZBKH-8lMEc&ab_channel=BSPStudios | The FASTEST Way To Learn VFX in 2025 (6 months) - YouTube
+https://www.youtube.com/watch?v=_T_3hMirhjw&ab_channel=HamzaN.Meo | Realistic VFX in Blender - The Ultimate Guide - YouTube
+https://www.youtube.com/watch?v=wCge7Y-CmHk&ab_channel=JacobZirkle | How to Get Started with VFX in Blender - YouTube
+https://www.youtube.com/watch?v=tCTkkHGRpNk&ab_channel=tinynocky | I animated this in 18 days... in Blender - YouTube
+https://www.youtube.com/watch?v=4KV28Lkd2DU&ab_channel=Smeaf | How To Actually Learn Blender In 2025 - YouTube
+https://www.youtube.com/watch?v=4ICmIsQ3Xvc&ab_channel=Regoliste | How to Easily Create Spider-man Animations in Blender - YouTube
+https://www.youtube.com/watch?v=NEG9lafbzvI&ab_channel=FxForge | How I made this battle scene in blender - YouTube
+https://www.youtube.com/watch?v=UXqq0ZvbOnk&ab_channel=BlenderStudio | CHARGE - Blender Open Movie - YouTube
+
+## Fashion
+
+https://www.youtube.com/results?search_query=fashion+blender | fashion blender - YouTube
+https://www.youtube.com/watch?v=vN6z7-EChIw&ab_channel=veryveig | DIGITAL FASHION in Blender - YouTube
+https://www.youtube.com/watch?v=RXaKBfRkMMY&ab_channel=AndyAizenbart | 3D T-Shirt Mockup | Quick Blender Tutorial - YouTube
+https://www.youtube.com/shorts/yudSTkXjGoA | Noob vs Pro artist: sewing clothes #blendertutorial #blender #blendercommunity #blender3d #b3d - YouTube
+https://www.youtube.com/watch?v=1umFOB0K-c0&ab_channel=Sal | Marvelous Designer Crash Course for Beginners (Introduction to 3D Digital Fashion) - YouTube
+https://www.youtube.com/watch?v=x60zHw_z4NM&t=68s&ab_channel=BlenderAcademy | Blender Tutorial – How to Use AI to Create 3D Models (ChatGPT and Blender) - YouTube
+
+https://www.youtube.com/watch?v=JrddPZmUHvE&ab_channel=GrantAbbitt%28Gabbitt%29 | Cascadeur - Is This the Future of Animation - YouTube
+https://www.youtube.com/watch?v=Jj-C0MkDVjc&ab_channel=GrantAbbitt%28Gabbitt%29 | Placing Background Images in Blender 2.8 - YouTube
+https://www.youtube.com/watch?v=AsygBRaRnUA&ab_channel=GrantAbbitt%28Gabbitt%29 | Blender Makes Sculpting Easy: Block to Beast in 1 Hour - YouTube
+https://www.youtube.com/watch?v=L2Jgyek33rQ&ab_channel=GrantAbbitt%28Gabbitt%29 | How to Set Up a Graphics Tablet | Blender 2.8 & 2.79 - YouTube
+https://www.youtube.com/watch?v=xo9JRPhGi68&ab_channel=GrantAbbitt%28Gabbitt%29 | Essential Skills to Become a PRO - How to Learn Topology - YouTube
+https://www.youtube.com/watch?v=xWF49Zu-i-A&ab_channel=GrantAbbitt%28Gabbitt%29 | Must Have Addons & Tools for Retopology - YouTube
+https://www.youtube.com/watch?v=W2MjvKy1yCo&ab_channel=GrantAbbitt%28Gabbitt%29 | Loop Tools Addon | Important Mesh Editing Tool | Blender 2.8 - YouTube

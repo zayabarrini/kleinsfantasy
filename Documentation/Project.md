@@ -1,5 +1,17 @@
 # Project
 
+## Inspiration
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788684300/)
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788684422/)
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788791752/)
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788703638/)
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788684424/)
+[View Pinterest Pin](https://www.pinterest.com/pin/24699497982693314/)
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788684106/)
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788683991/)
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788684408/)
+
+Klein Bottle animation, use pastel colors, anime styles
 ## Partes da garrafa:Falo, Buraco, Fluxo na superfície, textura/coloração/escritos = fantasia, estofado
 
 - Movimentos = abertura e fechamento do buraco, dilatação do falo, reconfiguração da garrafa, partes, cores
@@ -23,6 +35,180 @@
 - Animation: wave movement across the bottle
 - Animation: interaction between two bottles, interaction between three bottles, interaction between several bottles
 - Animation with the bottle's upholstery, different costumes, holes in the costume
+
+## Animations
+
+### Sujeito nD/Outro nD
+O inconsciente é topologicamente induzido pela linguagem
+
+Enodamento, Costura, Objeto nD em uma fantasia/realidade
+Topologia: estrutura da malha, organização dos vértices, arestas e faces.
+
+Esqueleto (rigging): sistema de ossos para animação.
+
+Textura: imagem aplicada à superfície do objeto.
+
+Iluminação: interação da luz com a superfície, influenciando sombras e reflexos.
+
+Renderização: processo de transformar o modelo 3D em uma imagem final.
+
+
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788684300/)
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788684422/)
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788791752/)
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788703638/)
+
+### Relação, Não-Relação, Transformação nD, Trocas nD
+Demanda de mais-de-gozar de um sujeito 3D. O sujeito 3D se transforma, o mundo 3D se transforma, o outro 3D se transforma. Tédio: demanda criativa: uma outra topologia, outro esqueleto, outra textura, outra iluminação, outra renderização. Ser para morte de Heidegger Ser-para-transformação.
+
+O sujeito 3D, ao experimentar o tédio, demanda transformação — um gozo além do dado, um mais-de-gozar que impele à criação. A resposta a essa demanda não é apenas a atualização da forma, mas uma reconfiguração estrutural:
+
+Outra topologia → Um novo modo de inscrição do desejo no espaço.
+
+Outro esqueleto → Um deslocamento no suporte da animação do sujeito.
+
+Outra textura → Uma alteração na superfície, no sensível, no que é tocável.
+
+Outra iluminação → Uma modificação na relação entre luz e sombra, revelando novos contornos.
+
+Outra renderização → Uma forma inédita de ser visto, de aparecer ao Outro.
+
+
+A estagnação se torna intolerável porque o ser não se dá apenas no tempo, mas na transformação. Se, para Heidegger, o Ser-para-a-morte orienta a existência, aqui há um Ser-para-transformação: a necessidade contínua de atualização e reinvenção para evitar a rigidez da repetição.
+
+No espaço virtual ou no espaço do desejo, a angústia do sujeito 3D ecoa a angústia do sujeito simbólico: não basta estar presente, é preciso se transformar.
+
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788684424/)
+[View Pinterest Pin](https://www.pinterest.com/pin/24699497982693314/)
+
+### Gêneros: Maldade, Santidade, Psicose, Perversão, Melancolia
+
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788684106/)
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788683991/)
+
+### Laço social, sólidos, líquidos, fluxos
+
+[View Pinterest Pin](https://br.pinterest.com/pin/622481979788684408/)
+
+## Direção do Tratamento, Operações topológicas 
+
+Corte, torção, laço, e outras
+Análise de analogias topologicas
+
+Análise de Analogias Topológicas na Psicanálise
+
+A topologia fornece um campo de operações para pensar os processos psíquicos, deslocando-se do modelo espacial tradicional (interior-exterior) para uma dinâmica estrutural, onde os fenômenos subjetivos podem ser descritos por cortes, torções e laços. Abaixo, exploramos algumas dessas analogias e suas implicações clínicas.
+
+
+---
+
+1. O Corte – A Intervenção e a Separação
+
+O corte é uma operação fundamental na psicanálise e na topologia. Ele instaura uma divisão, separa e redistribui elementos dentro de uma estrutura.
+
+Exemplos clínicos
+
+Interpretação analítica: um corte bem feito na cadeia significante pode produzir um deslocamento no gozo do sujeito.
+
+Separação do Outro: a castração simbólica pode ser vista como um corte que limita o gozo absoluto e permite a subjetivação.
+
+
+Exemplo topológico
+
+Um corte na fita de Möbius pode criar novas superfícies e transformar a estrutura do espaço subjetivo do analisante.
+
+No grafo do desejo de Lacan, o corte na cadeia significante altera a dinâmica da demanda e do gozo.
+
+
+
+---
+
+2. A Torção – A Transformação Subjetiva
+
+A torção envolve uma modificação estrutural que mantém a continuidade, mas altera a relação entre os elementos.
+
+Exemplos clínicos
+
+Mudança na posição do sujeito: alguém que antes se via como vítima pode passar a ocupar um lugar ativo na própria história.
+
+Mudança na relação com o gozo: o sujeito pode torcer o modo como se vincula ao gozo, deslocando-se da repetição mortífera para novas formas de desejar.
+
+
+Exemplo topológico
+
+A fita de Möbius é um exemplo de torção: ela aparenta ter dois lados, mas um percurso contínuo revela que é uma superfície única.
+
+Esse modelo pode ilustrar os retornos do sintoma: o sujeito acredita estar saindo de um padrão, mas descobre que ainda está preso ao mesmo circuito.
+
+
+
+---
+
+3. O Laço – Conexão e Vinculação
+
+O laço é um conceito fundamental para pensar a estrutura do sujeito no discurso e suas relações com o Outro.
+
+Exemplos clínicos
+
+Os laços sociais e suas rupturas: analisantes que sofrem com vínculos difíceis podem encontrar novos modos de fazer laço na análise.
+
+O inconsciente estruturado como linguagem: os significantes se entrelaçam, formando redes que definem a posição do sujeito no discurso.
+
+
+Exemplo topológico
+
+O nó borromeano, usado por Lacan para representar RSI (Real, Simbólico e Imaginário), mostra como a estrutura psíquica se sustenta enquanto os três registros se mantêm entrelaçados.
+
+Se um dos laços do nó se desfaz, a estrutura colapsa – como ocorre em certas psicoses.
+
+
+
+---
+
+4. O Buraco – Falta e Desejo
+
+O buraco representa a falta estrutural que impulsiona o desejo e define a subjetividade.
+
+Exemplos clínicos
+
+O desejo sempre remete a um buraco: nunca há um objeto que o satisfaça completamente.
+
+O sintoma como borda do buraco: aquilo que o sujeito repete pode ser uma forma de contornar uma falta essencial.
+
+
+Exemplo topológico
+
+A garrafa de Klein é uma superfície sem dentro nem fora, ilustrando como o sujeito pode se perder na estrutura do gozo.
+
+Em um toro (doughnut), o buraco central é fundamental para a estrutura – assim como o furo do significante mantém a cadeia do desejo em movimento.
+
+
+
+---
+
+5. A Inversão – Reviravolta Subjetiva
+
+A inversão implica uma mudança radical de perspectiva, onde uma posição subjetiva se transforma em seu oposto.
+
+Exemplos clínicos
+
+O amor que se torna ódio: a dialética do amor e do ódio mostra como um sentimento pode se inverter sem que a estrutura se modifique.
+
+O masoquismo que se transforma em sadismo: em algumas perversões, há um jogo estrutural de inversão entre posição ativa e passiva.
+
+
+Exemplo topológico
+
+O nó invertido pode manter a mesma estrutura, mas alterar a relação entre seus componentes – assim como na reversão dialética do desejo.
+
+
+
+---
+
+Conclusão
+
+Essas operações topológicas fornecem ferramentas conceituais para pensar os deslocamentos do sujeito na análise. O analista, ao operar cortes e torções no discurso do analisante, participa da construção de novas configurações subjetivas. A topologia, assim, não é apenas uma metáfora, mas um campo de intervenção estrutural na clínica psicanalítica.
+
 
 
 # Qual o nome de um objeto 3D, o objeto tem uma topologia, esqueleto, textura, iluminação, renderização 
@@ -409,7 +595,8 @@ Graph editor
 
 ## VFX
 https://www.youtube.com/watch?v=NEG9lafbzvI&ab_channel=FxForge
-Explosions, flames, dissolving
+https://www.youtube.com/watch?v=YtqtpbXyTZs&ab_channel=ErikDoesVFX
+Explosions, flames, dissolving, water, smoke
 Cuts and other objects inside each other
 Merging into each other
 
