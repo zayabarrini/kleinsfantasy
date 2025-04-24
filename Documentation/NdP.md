@@ -20,7 +20,7 @@ O ódio ao trans se articula como ódio à torção, à dobra, à continuidade d
 
 Transexualidade como fonte de ódio Trauma e a diferença entre sexos Sacrifício de jogo Por que a Transexualidade incomoda tanto Análise de Freud e Lacan
 
-
+<video controls src="../mp4/Topology/cutKlein.mp4" title="cutKlein"></video>
 
 # Representação de uma animação ilustrando oa função do Nome-do-Pai 
 Se tomamos a criança como uma garrafa de Klein em simbiose com a mãe. O nome do pai seria um plano de circulação de signos que atravessa a garrafa de Klein produzindo a fantasia de separação. Separa mãe/criança e também os gêneros masculino/feminino, lado fálico, lado falta/buraco. 
