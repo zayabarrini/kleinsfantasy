@@ -1,3 +1,27 @@
+# Paralelepípedo Retangular NdP
+
+Paralelepípedo retangular NdP: funciona como estabilizador, separa os sexos, separa os gozos, estabiliza a realidade
+Falta/presença de um signo F(x)
+Psicose: falta presença da Coisa, X
+Paralelepípedo retangular tende a zero, não há gênero, não há separação no limite, física das partículas 
+Delírio, paranóia tentativa de separação, suplências do paralelepípedo retangular NdP
+Sair do eixo, pavio curto, território, separação
+
+# Ódio Topológico, Trans-torno linguístico, Trans-torno RSI
+
+Trans-torno, trans-torna
+Trans-torna a linguagem, a imagem. 
+R sobre S, I
+T-RSI 
+Trauma da diferença sexual, sacrifício de gozo, não renúncia.
+Renúncia ao outro sexo, outro gozo. 
+Não renúncia. 
+O ódio ao trans se articula como ódio à torção, à dobra, à continuidade do impossível, ao “não se sabe de que lado se está”.
+
+Transexualidade como fonte de ódio Trauma e a diferença entre sexos Sacrifício de jogo Por que a Transexualidade incomoda tanto Análise de Freud e Lacan
+
+
+
 # Representação de uma animação ilustrando oa função do Nome-do-Pai 
 Se tomamos a criança como uma garrafa de Klein em simbiose com a mãe. O nome do pai seria um plano de circulação de signos que atravessa a garrafa de Klein produzindo a fantasia de separação. Separa mãe/criança e também os gêneros masculino/feminino, lado fálico, lado falta/buraco. 
 Esse plano é induzido por significantes mestres e quando há a queda de um significante mestre, a sombra da garrafa de Klein pulsa. 
@@ -68,35 +92,94 @@ A garrafa respira com mais força, suas dobras se multiplicam, mas o plano simb�
 
 Se quiser, posso criar um **roteiro técnico** , esboço visual com frames, ou até organizar os arquivos para **Blender**  e **animação procedural** . Deseja avançar com isso como projeto visual?
 
-ChatGPT: 
 
-Create an image of a Klein bottle being cut transversely by a plane
+# Images
 
-You: 
+![alt text](../images/NdP/1.jpeg) 
 
-Image created![Generated image](https://sdmntprukwest.oaiusercontent.com/files/00000000-0cd4-6243-8517-9ae732b4a476/raw?se=2025-04-24T12%3A42%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=5be97c56-38b4-583d-b1a2-79397d0f0dbb&skoid=aa8389fc-fad7-4f8c-9921-3c583664d512&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-24T03%3A39%3A16Z&ske=2025-04-25T03%3A39%3A16Z&sks=b&skv=2024-08-04&sig=U1gFhV0l%2BoaqQYE9gGm1luLBG2vFZs61dQ487oI8oYw%3D) 
-![Generated image](https://sdmntprukwest.oaiusercontent.com/files/00000000-0cd4-6243-8517-9ae732b4a476/raw?se=2025-04-24T12%3A42%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=5be97c56-38b4-583d-b1a2-79397d0f0dbb&skoid=aa8389fc-fad7-4f8c-9921-3c583664d512&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-24T03%3A39%3A16Z&ske=2025-04-25T03%3A39%3A16Z&sks=b&skv=2024-08-04&sig=U1gFhV0l%2BoaqQYE9gGm1luLBG2vFZs61dQ487oI8oYw%3D) 
-![Generated image](https://sdmntprukwest.oaiusercontent.com/files/00000000-0cd4-6243-8517-9ae732b4a476/raw?se=2025-04-24T12%3A42%3A03Z&sp=r&sv=2024-08-04&sr=b&scid=5be97c56-38b4-583d-b1a2-79397d0f0dbb&skoid=aa8389fc-fad7-4f8c-9921-3c583664d512&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-24T03%3A39%3A16Z&ske=2025-04-25T03%3A39%3A16Z&sks=b&skv=2024-08-04&sig=U1gFhV0l%2BoaqQYE9gGm1luLBG2vFZs61dQ487oI8oYw%3D) 
+![alt text](../images/NdP/1.jpg) 
 
+![alt text](../images/NdP/2.jpeg) 
 
+![alt text](../images/NdP/2.jpg) 
 
-Rate this image
+![alt text](../images/NdP/3.jpeg) 
+
+![alt text](../images/NdP/4.jpeg) 
+
+![alt text](../images/NdP/5.jpeg) 
+
+![alt text](../images/NdP/6.jpeg) 
+
+![alt text](../images/NdP/7.jpeg)
 
 
 # Dunker
 ## Topology 
 ref: https://www.youtube.com/watch?v=n5jEAvVqIEw&list=PLlHDVKUxuaFoOOthkZhBFnMmW4wjD6ZB8&index=8&ab_channel=ChristianDunker
-Pulsão: https://youtube.com/clip/UgkxpDRKxyLnjPxan8ZRI54AIhOuBhWbtQWV?si=wElZF4mTiRQkmjJz
-Toro-demanda
-Moebius
-Traço unário: 11:49:2 - 12:42:7
-Identificação, Neurose: 13:57 - 15:34
-Identificações, objeto a: 16:26 - 18:51
-Cross-cap: 19:07 - 19:47
-Garrafa de Klein: 19:47 - 20:22
+### Pulsão: https://youtube.com/clip/UgkxpDRKxyLnjPxan8ZRI54AIhOuBhWbtQWV?si=wElZF4mTiRQkmjJz
+
+<video controls src="../mp4/Topology/Pulsion.mp4" title="Pulsion"></video> 
+
+### Toro-demanda
+
+<video controls src="../mp4/Topology/Topology-Toro-Demanda.mp4" title="Topology-Toro-Demanda"></video> 
+
+### Moebius
+
+<video controls src="../mp4/Topology/Moebius.mp4" title="Moebius"></video> 
+
+### Traço unário: 11:49:2 - 12:42:7
+
+<video controls src="../mp4/Topology/Unar.mp4" title="Unar"></video>
+
+### Identificação, Neurose: 13:57 - 15:34
+
+<video controls src="../mp4/Topology/Identification-neurosis.mp4" title="Identification-neurosis"></video> 
+
+### Identificações, objeto a: 16:26 - 18:51
+
+<video controls src="../mp4/Topology/Identifications-objecta.mp4" title="Identifications-objecta"></video> 
+
+### Cross-cap: 19:07 - 19:47
+<video controls src="../mp4/Topology/Crosscap.mp4" title="Crosscap"></video>
+
+### Garrafa de Klein: 19:47 - 20:22
+
+<video controls src="../mp4/Topology/Klein.mp4" title="Klein"></video> 
 
 ## R, I
 https://www.youtube.com/watch?v=e20JrzrCLOs&list=PLlHDVKUxuaFoOOthkZhBFnMmW4wjD6ZB8&index=1&ab_channel=ChristianDunker | Esquema R e Esquema I de Lacan | Christian Dunker | Falando nIsso 342 - YouTube
+
+### Critic
+<video controls src="../mp4/RI/Critic.mp4" title="Critic"></video>
+
+### Forclusion
+<video controls src="../mp4/RI/Forclusion.mp4" title="Forclusion"></video>
+
+### Identity
+<video controls src="../mp4/RI/Identity-Object.mp4" title="Identity-Object"></video>
+
+### NdP
+<video controls src="../mp4/RI/NdP.mp4" title="NdP"></video>
+
+### Phantasm
+<video controls src="../mp4/RI/Phantasm.mp4" title="Phantasm"></video>
+
+### PsychosisPhenomena
+<video controls src="../mp4/RI/PsychosisPhenomena.mp4" title="PsychosisPhenomena"></video>
+
+### RealityLossNeurosis
+<video controls src="../mp4/RI/R.mp4" title="Title"></video>
+
+### RealityLossNeurosis
+<video controls src="../mp4/RI/RealityLossNeurosis.mp4" title="RealityLossNeurosis"></video>
+
+### SchreberPhenomena
+<video controls src="../mp4/RI/SchreberPhenomena.mp4" title="SchreberPhenomena"></video>
+
+### TransexualJouissance
+<video controls src="../mp4/RI/TransexualJouissance.mp4" title="TransexualJouissance"></video>
 
 ## L
 https://www.youtube.com/watch?v=mrs2-XO3OcA&list=PLlHDVKUxuaFoOOthkZhBFnMmW4wjD6ZB8&index=3&ab_channel=ChristianDunker | O esquema L de Lacan | Christian Dunker | Falando nIsso 263 - YouTube
@@ -112,3 +195,17 @@ https://www.youtube.com/watch?v=N_GAiKm2Bcw&list=PLlHDVKUxuaFoOOthkZhBFnMmW4wjD6
 
 ## Discourse Theory
 https://www.youtube.com/watch?v=FAPE8-L8orE&list=PLlHDVKUxuaFoOOthkZhBFnMmW4wjD6ZB8&index=8 | Os 4 discursos de Lacan | Christian Dunker | Falando nIsso 82 - YouTube
+
+
+# Topology Animations
+
+<video controls src="../mp4/Pinterest/Elemental reality-Topology.mp4" title="Title"></video> 
+<video controls src="../mp4/Pinterest/Elemental topology, proportions, mixture.mp4" title="Title"></video> 
+<video controls src="../mp4/Pinterest/Evil Topology.mp4" title="Title"></video> 
+<video controls src="../mp4/Pinterest/Melancholic Topology.mp4" title="Title"></video> 
+<video controls src="../mp4/Pinterest/Não-Relação, Percurso nD com o Outro.mp4" title="Title"></video> 
+<video controls src="../mp4/Pinterest/nD Transformation.mp4" title="Title"></video> 
+<video controls src="../mp4/Pinterest/Sujeito nD-Outro nD.mp4" title="Title"></video> 
+<video controls src="../mp4/Pinterest/Sujeito nD transformation.mp4" title="Title"></video> 
+<video controls src="../mp4/Pinterest/Symbiosis.mp4" title="Title"></video> 
+![alt text](../mp4/Pinterest/PulsionOther.gif) ![alt text](../mp4/Pinterest/sexuation.gif) ![alt text](../mp4/Pinterest/topology-trans.gif)
