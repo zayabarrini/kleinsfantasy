@@ -72,3 +72,13 @@ cd /home/zaya/Documents/Gitrepos/kleinsfantasy
 # Remove any existing environment files (if they exist)
 rm -rf venv .venv blender_venv Pipfile Pipfile.lock
 
+# To-do
+
+Cortar a Garrafa com um plano
+
+Adicionar imagens ao plano: Escritos Chinese, Grafo do desejo, Equações topológicas
+
+Adicionar uma Faixa de Moebius
+
+Ambiente
+

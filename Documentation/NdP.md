@@ -209,3 +209,4 @@ https://www.youtube.com/watch?v=FAPE8-L8orE&list=PLlHDVKUxuaFoOOthkZhBFnMmW4wjD6
 <video controls src="../mp4/Pinterest/Sujeito nD transformation.mp4" title="Title"></video> 
 <video controls src="../mp4/Pinterest/Symbiosis.mp4" title="Title"></video> 
 ![alt text](../mp4/Pinterest/PulsionOther.gif) ![alt text](../mp4/Pinterest/sexuation.gif) ![alt text](../mp4/Pinterest/topology-trans.gif)
+
